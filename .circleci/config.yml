@@ -23,7 +23,7 @@ jobs:
       - run:
           name: Run UnitTest
           command: ./gradlew test
-       - run:
+      - run:
           name: List SDKmanager
           command: sdkmanager --list --verbose
       - run: yes | sdkmanager --licenses || exit 0
