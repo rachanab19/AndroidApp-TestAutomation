@@ -23,6 +23,11 @@ jobs:
       - run:
           name: Run UnitTest
           command: ./gradlew test
+       - run:
+          name: List SDKmanager
+          command: sdkmanager --list --verbose
+      - run: yes | sdkmanager --licenses || exit 0
+      - run: yes | sdkmanager --update || exit 0
       - run:
           name: Setup emulator
           command: sudo apt-get install libpulse0 libgles2-mesa-dev && sdkmanager "system-images;android-21;default;armeabi-v7a" && echo "no" | avdmanager create avd -n test -k "system-images;android-21;default;armeabi-v7a"
