@@ -50,7 +50,7 @@ public class DriverSearchTests extends BaseTest{
             User user = User.getUser(Constants.VALID);
             loginScreen.login(user);
         }
-         Intents.init();
+         
     }
 
     @Test
@@ -72,6 +72,7 @@ public class DriverSearchTests extends BaseTest{
         driverSearchScreen.searchDriver(driver);
         driverProfileScreen.getDriverName().check(matches(withText(driver.getFullName())));
         //Verifying the navigation to dialer screen by Stubbing the dialer activity
+        Intents.init();
         driverProfileScreen.callDriver();
         intended(toPackage("com.google.android.dialer"));
         Intents.release();
