@@ -1,64 +1,42 @@
 version: 2
-
 jobs:
   build:
     working_directory: ~/AndroidApp-TestAutomation
     docker:
-      - image: circleci/android:api-27
+      - image: circleci/android:api-27-alpha
     environment:
-      JVM_OPTS: -Xmx3200m
+      _JAVA_OPTIONS: "-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Xms1024m -Xmx1536m -XX:MaxMetaspaceSize=1536m"
+      GRADLE_OPTS: '-Dorg.gradle.daemon=false -Dorg.gradle.parallel=false -Dkotlin.incremental=false -DdisablePreDex'
     steps:
       - checkout
-      - restore_cache:
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
       - run:
-          name: Chmod permissions #if permission for Gradlew Dependencies fail, use this.
-          command: sudo chmod +x ./gradlew
+          name: Path
+          command: pwd
+      - run:
+          name: Chmod permissions
+          command: sudo chmod +x ./AndroidDemo/gradlew
       - run:
           name: Download Dependencies
-          command: ./gradlew androidDependencies
-      - save_cache:
-          paths:
-            - ~/.gradle
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
-
-  test-ui:
-    docker:
-      - image: circleci/android:api-27
-    steps:
-      - checkout
-      - restore_cache:
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+          command: ./AndroidDemo/gradlew dependencies         
+      - run:
+          name: Accept all licences
+          command: yes | sdkmanager --licenses || exit 0 && yes | sdkmanager --update || exit 0 
       - run:
           name: Setup emulator
-          command: |
-            sudo apt-get install libpulse0 libgles2-mesa-dev
-            sdkmanager "system-images;android-22;default;armeabi-v7a"
-            echo "no" | avdmanager create avd -n test -k "system-images;android-22;default;armeabi-v7a"
+          command: echo y | sdkmanager "platform-tools" "platforms;android-22" "emulator" "system-images;android-22;default;armeabi-v7a" && echo "no" | avdmanager create avd -n test -k "system-images;android-22;default;armeabi-v7a"
       - run:
           name: Launch emulator
-          command: |
-            cd ${ANDROID_HOME}/emulator;ls
-            export LD_LIBRARY_PATH=${ANDROID_HOME}/emulator/lib64:${ANDROID_HOME}/emulator/lib64/qt/lib
-            emulator -avd test -no-window -noaudio -no-boot-anim -no-window -accel on
-          background: true
+          command: export LD_LIBRARY_PATH=${ANDROID_HOME}/emulator/lib64:${ANDROID_HOME}/emulator/lib64/qt/lib && emulator64-arm -avd test -noaudio -no-boot-anim -no-window -accel on -gpu off
+          background: true 
       - run:
           name: Wait emulator
-          command: |
-            circle-android wait-for-boot
-            sleep 120
-            adb shell input keyevent 82
+          command:  |
+           circle-android wait-for-boot
+           sleep 30
+           adb shell input keyevent 82 
       - run:
-          name: Run espresso tests
-          command: ./gradlew connectedAndroidTest
-      - store_test_results:
-          path: app/build/reports/androidTests
-
-workflows:
-  version: 2
-  build-test-ui:
-    jobs:
-      - build
-      - test-ui:
-          requires:
-            - build
+          name: Run UI Tests
+          command: cd AndroidDemo && ./gradlew connectedAndroidTest
+      - store_artifacts:
+          path: AndroidDemo/app/build/reports
+          destination: reports
