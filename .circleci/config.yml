@@ -1,11 +1,10 @@
 version: 2
+
 jobs:
   build:
     working_directory: ~/AndroidApp-TestAutomation
     docker:
-     # - image: circleci/android:api-27-alpha
       - image: circleci/android:api-27
-
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
@@ -13,72 +12,50 @@ jobs:
       - restore_cache:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
       - run:
-          name: Chmod permissions #if permission for Gradlew Dependencies fail, use this.
-          command: sudo chmod +x ./gradlew
-      - run:
           name: Download Dependencies
           command: ./gradlew androidDependencies
       - save_cache:
           paths:
             - ~/.gradle
           key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
-      #- run:
-      #    name: Run Tests
-      #    command: ./gradlew lint test
-      - run:
-          name: List SDKmanager
-          command: sdkmanager --list --verbose
 
-      - run: yes | sdkmanager --licenses || exit 0
-      - run: yes | sdkmanager --update || exit 0
-
-          #--------------------------------------------ADDING TEMPORARY STATEMENTS -------------------------------------------#
-      - run:
-          name: List Emulator
-          command: ls ${ANDROID_HOME}/ | grep "emulator"
-
-     # - run:
-      #    name: Setup emulator
-       #   command: |
-        #    echo y | sdkmanager "system-images;android-28;google_apis;x86" && echo "no" | avdmanager -v create avd -n androidlearn -k "system-images;android-27;google_apis;x86" -c 2048M -g google_apis  -d "Nexus 7 2013"
+  test-ui:
+    docker:
+      - image: circleci/android:api-27
+    steps:
+      - checkout
+      - restore_cache:
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
       - run:
           name: Setup emulator
-          #command: sdkmanager "system-images;android-28;google_apis;x86" && echo "no" | avdmanager create avd -n test -k "system-images;android-28;google_apis;x86"
-          command: sdkmanager "system-images;android-24;default;armeabi-v7a" && echo "no" | avdmanager create avd -n test -k "system-images;android-24;default;armeabi-v7a"
-
-      - run:
-          name: List Emulator AGAIN
-          command: ls ${ANDROID_HOME}/emulator/ | grep "emulator"
-
-
+          command: |
+            sudo apt-get install libpulse0 libgles2-mesa-dev
+            sdkmanager "system-images;android-22;default;armeabi-v7a"
+            echo "no" | avdmanager create avd -n test -k "system-images;android-22;default;armeabi-v7a"
       - run:
           name: Launch emulator
-          command: export LD_LIBRARY_PATH=${ANDROID_HOME}/emulator/lib64:${ANDROID_HOME}/emulator/lib64/qt/lib && emulator -avd test -noaudio -no-boot-anim -no-window -accel auto -verbose
-          background: true
-      - run:
-          name: Launch logcat
-          command:
-            adb logcat > logcat.log
-          background: true
-
-        #--------------------------------------------ENDING TEMPORARY STATEMENTS -------------------------------------------#
-
-
-      - run:
-          name: Wait emulator #Wait for Emulator to load
           command: |
-            # wait for it to have booted
+            cd ${ANDROID_HOME}/emulator;ls
+            export LD_LIBRARY_PATH=${ANDROID_HOME}/emulator/lib64:${ANDROID_HOME}/emulator/lib64/qt/lib
+            emulator -avd test -no-window -noaudio -no-boot-anim -no-window -accel on
+          background: true
+      - run:
+          name: Wait emulator
+          command: |
             circle-android wait-for-boot
-            # unlock the emulator screen
-            sleep 30
+            sleep 120
             adb shell input keyevent 82
       - run:
-          name: Run EspressoTests #Run the Espresso tests
-          command: ./gradlew app:connectedAndroidTest
+          name: Run espresso tests
+          command: ./gradlew connectedAndroidTest
+      - store_test_results:
+          path: app/build/reports/androidTests
 
-      - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
-          path: app/build/reports
-          destination: reports
-      - store_test_results: # for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
-          path: app/build/test-results
-      # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples
+workflows:
+  version: 2
+  build-test-ui:
+    jobs:
+      - build
+      - test-ui:
+          requires:
+            - build
