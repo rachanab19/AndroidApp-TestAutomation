@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: de.mannodermaus.junit5:android-instrumentation-test:0.2.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59dfdd65243f6eb7d1c19e6c81f7eb64/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59dfdd65243f6eb7d1c19e6c81f7eb64/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.mannodermaus.junit5/android-instrumentation-test/0.2.2/3a4c223f4277163f8620f63fcc040775016e9281/android-instrumentation-test-0.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

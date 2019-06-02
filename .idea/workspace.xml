@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>okhttp3-integration</name>
+        <version>4.9.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-location</name>
+        <version>16.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.okhttp3</group-id>
+        <name>okhttp</name>
+        <version>4.0.0-alpha01</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.2.0-beta01</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.2.0-beta01</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-maps</name>
+        <version>16.1.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.code.gson</group-id>
+        <name>gson</name>
+        <version>2.8.5</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.dagger</group-id>
+        <name>dagger</name>
+        <version>2.22.1</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>cardview-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.dagger</group-id>
+        <name>dagger-compiler</name>
+        <version>2.22.1</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>glide</name>
+        <version>4.9.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>compiler</name>
+        <version>4.9.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-places</name>
+        <version>16.1.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>rules</name>
+        <version>1.2.0-beta01</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-beta1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>core</name>
+        <version>1.2.0-beta01</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1558782548955</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="178c44a7-32c8-4d24-9497-bbd4bfd72dca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/DriverSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/Authentication_Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/LoginScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverProfile_Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverProfileScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/Main_Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverSearchScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/NavigationBar_Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/NavigationBarScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/base/ElementActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/actions/ElementActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/MainScreenTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/MyTaxiDemoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/MyTaxiDemoTestsuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/DriverProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/DriverProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/adapters/DriverAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/adapters/DriverAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/" />
+    <ignored path="$PROJECT_DIR$/app/build/generated/source/r/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/assets/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/build-info/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/check-manifest/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/classes-jar/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental-classes/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/instant-run-main-apk-res/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/javaPrecompile/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/lint/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/manifest-checker/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/manifests/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/prebuild/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/reload-dex/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/resources/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/split-apk/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/splits-support/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/symbols/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/tmp/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/app/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/app/build/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AndroidDemo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AndroidDemo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AndroidDemo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AndroidDemo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/actions/ElementActor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/DriverSearchTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/LoginTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverProfileScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverSearchScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/LoginScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/NavigationBarScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>matches</find>
+      <find>login: verifying the Search box is displayed</find>
+      <find>searchContainer</find>
+      <find>appbar_scrolling_view_behavior</find>
+      <find>layout_behavior</find>
+      <find>logout</find>
+      <find>pageAction</find>
+      <find>withTes</find>
+      <find>suge</find>
+      <find>DriverAdapter</find>
+      <find>searchDriver</find>
+      <find>mAdapter</find>
+      <find>nav_view</find>
+      <find>perform</find>
+      <find>By</find>
+      <find>myTaxiIdlingResource</find>
+      <find>idling</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest2.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest3.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest4.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/pages/DriverDetailsPage.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/pages/base/BasePage.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/pages/base/NavigationPage.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/pages/AuthenticationPage.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/pages/DriverProfilePage.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/MyTaxiDemoTests1.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/DriverProfileTests.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_authentication.xml" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/AuthenticationActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/base/BasePage.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/NavigationPage.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/base/ScreenComponents.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/Main_Bar_Screen.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/Main_Screen.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/AuthenticationScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/MainScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/MainScreenTests.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/SimpleCountingIdlingResource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/EspressoIdlingResource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/DriverProfileActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/SimpleCountingIdlingResource.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/MyTaxiCustomIdlingResource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/MyTaxiIdlingResource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/adapters/DriverAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/MyTaxiDemoTests.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/base/ElementActor.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverProfileScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/LoginScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/NavigationBarScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverSearchScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/Driver.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/User.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/LoginTests.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/DriverSearchTests.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="6" />
+    <option name="width" value="1491" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="android_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="android_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="android_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="android_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="android_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="android_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="android_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="android_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="adapters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="Pixel2-API26-MyTaxi [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.mytaxi.android_demo" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="Pixel2-API26-MyTaxi" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.4.0" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mytaxi.android_demo.model" />
+      <recent name="com.mytaxi.android_demo.tests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android Instrumented Tests.MyTaxiDemoTestsuite">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverSearchTests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.mytaxi.android_demo.tests.DriverSearchTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.mytaxi.android_demo.tests.LoginTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTaxiDemoTestsuite" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.mytaxi.android_demo.tests.MyTaxiDemoTestsuite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1_verifyAuthen...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="Test1_verifyAuthenticationForValidUser" />
+      <option name="CLASS_NAME" value="com.mytaxi.android_demo.tests.LoginTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2_verifyLoginF...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="test2_verifyLoginForValidUser" />
+      <option name="CLASS_NAME" value="com.mytaxi.android_demo.tests.LoginTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.MyTaxiDemoTestsuite" />
+        <item itemvalue="Android Instrumented Tests.LoginTests" />
+        <item itemvalue="Android Instrumented Tests.DriverSearchTests" />
+        <item itemvalue="Android Instrumented Tests.test2_verifyLoginF...()" />
+        <item itemvalue="Android Instrumented Tests.Test1_verifyAuthen...()" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1558270751777" text="appbar_scrolling_view_behavior" recursive="true" caseInsensitive="true" type="JAVA" scope_type="MODULE" scope_descriptor="app" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="178c44a7-32c8-4d24-9497-bbd4bfd72dca" name="Default Changelist" comment="" />
+      <created>1558161602990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558161602990</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DriverSearchTests - 2019.05.28 at 00h 37m 22s.xml">
+      <configuration name="DriverSearchTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DriverSearchTests - 2019.05.28 at 00h 38m 25s.xml">
+      <configuration name="DriverSearchTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DriverSearchTests - 2019.05.28 at 00h 42m 40s.xml">
+      <configuration name="DriverSearchTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DriverSearchTests - 2019.05.28 at 00h 43m 21s.xml">
+      <configuration name="DriverSearchTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DriverSearchTests - 2019.05.28 at 00h 48m 34s.xml">
+      <configuration name="DriverSearchTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DriverSearchTests - 2019.05.28 at 01h 07m 34s.xml">
+      <configuration name="DriverSearchTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DriverSearchTests - 2019.05.28 at 01h 08m 57s.xml">
+      <configuration name="DriverSearchTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LoginTests - 2019.05.28 at 01h 21m 47s.xml">
+      <configuration name="LoginTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LoginTests - 2019.05.28 at 01h 22m 52s.xml">
+      <configuration name="LoginTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MyTaxiDemoTests - 2019.05.28 at 01h 37m 54s.xml">
+      <configuration name="MyTaxiDemoTests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info x="1031" y="156" width="608" height="759" id="View Tree" order="0" sideWeight="0.49888888" type="FLOATING" weight="0.32995737" />
+      <window_info id="Captures" order="1" sideWeight="0.2238806" side_tool="true" weight="0.26439232" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7761194" visible="true" weight="0.18869936" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" sideWeight="0.5007825" side_tool="true" weight="0.27878466" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Resources Explorer" order="8" weight="0.1652452" />
+      <window_info id="Capture Tool" order="9" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.67004263" visible="true" weight="0.2988889" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.7148188" weight="0.318743" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3288889" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3288889" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.21908316" side_tool="true" weight="0.2911111" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.78091687" weight="0.2588889" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Assistant" order="0" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Hierarchy" order="1" weight="0.32995737" />
+      <window_info anchor="right" id="Device File Explorer" order="2" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info x="1031" y="156" width="608" height="759" id="View Tree" order="0" sideWeight="0.49888888" type="FLOATING" weight="0.32995737" />
+      <window_info id="Captures" order="1" sideWeight="0.2238806" side_tool="true" weight="0.26439232" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7761194" visible="true" weight="0.3411514" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" sideWeight="0.5007825" side_tool="true" weight="0.27878466" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Resources Explorer" order="8" weight="0.1652452" />
+      <window_info id="Capture Tool" order="9" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.67004263" visible="true" weight="0.45555556" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.7148188" weight="0.3188889" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3288889" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.54" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.21908316" side_tool="true" weight="0.2911111" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49946696" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.78091687" weight="0.2588889" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Assistant" order="0" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Hierarchy" order="1" weight="0.32995737" />
+      <window_info anchor="right" id="Device File Explorer" order="2" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest4.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest4.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/MainActivity.java</url>
+          <line>162</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/MainActivity.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/MainActivity.java</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/MainActivity.java</url>
+          <line>249</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/MyTaxiCustomIdlingResource.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/MyTaxiCustomIdlingResource.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/MyTaxiIdlingResource.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/LoginTests.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/LoginScreen.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/LoginScreen.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/LoginScreen.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>findElementWithId(getUsername();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>onView(withId(R.id.toolbar)).check(matches(isDisplayed()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>withId(R.id.toolbar)).check(matches(isDisplayed())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>withText(&quot;Search driver here&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>withText</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test/rules/1.0.2/6a090af62c13f8c82c3ee631d8b766f5e025a0ac/rules-1.0.2-sources.jar!/android/support/test/rule/GrantPermissionRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/misc/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-intents/3.0.2/817f6a8aad947cc5742667a43acfd0e6f5ec866f/espresso-intents-3.0.2-sources.jar!/android/support/test/espresso/intent/Intents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+          <folding>
+            <element signature="e#7040#7041#0" expanded="true" />
+            <element signature="e#7077#7078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="5664" column="11" selection-start-line="5664" selection-start-column="11" selection-end-line="5664" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/AuthenticationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+          <folding>
+            <element signature="e#3918#3945#0" expanded="true" />
+            <element signature="e#3636#3669#0" expanded="true" />
+            <element signature="e#3759#3792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1955">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-idling-resource/3.0.2/6071e2b310c16836ba475a94df377e2f75928546/espresso-idling-resource-3.0.2-sources.jar!/android/support/test/espresso/IdlingRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-26/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7390" column="53" selection-start-line="7390" selection-start-column="53" selection-end-line="7390" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/AuthenticatedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/MyTaxiCustomIdlingResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/adapters/DriverAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-core/3.0.2/433f4f601a3f3835691d80838dd7ff9414931b05/espresso-core-3.0.2-sources.jar!/android/support/test/espresso/assertion/ViewAssertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/activities/MainActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test/rules/1.0.2/6a090af62c13f8c82c3ee631d8b766f5e025a0ac/rules-1.0.2-sources.jar!/android/support/test/rule/ActivityTestRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="534" selection-start-line="534" selection-end-line="534" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test/runner/1.0.2/b2ce2342744a66e935dbc4a298259709a4c1f042/runner-1.0.2-sources.jar!/android/support/test/internal/runner/junit4/statement/RunBefores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_authentication.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_driver_profile.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_driver_profile.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/drawables.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-core/3.0.2/433f4f601a3f3835691d80838dd7ff9414931b05/espresso-core-3.0.2-sources.jar!/android/support/test/espresso/matcher/ViewMatchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="275" selection-start-line="275" selection-end-line="275" />
+          <folding>
+            <element signature="e#10851#10852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-core/3.0.2/433f4f601a3f3835691d80838dd7ff9414931b05/espresso-core-3.0.2-sources.jar!/android/support/test/espresso/ViewInteraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/idling/MyTaxiIdlingResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mytaxi/android_demo/activities/DriverProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-core/3.0.2/433f4f601a3f3835691d80838dd7ff9414931b05/espresso-core-3.0.2-sources.jar!/android/support/test/espresso/Espresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="218" column="21" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
+          <folding>
+            <element signature="e#7126#7127#0" expanded="true" />
+            <element signature="e#7170#7171#0" expanded="true" />
+            <element signature="e#9204#9205#0" expanded="true" />
+            <element signature="e#9263#9264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/MyTaxiDemoTestsuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverProfileScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/LoginScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/NavigationBarScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/actions/ElementActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/screens/DriverSearchScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-880">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/model/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/mytaxi/android_demo/tests/DriverSearchTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
